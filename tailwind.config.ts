@@ -11,7 +11,15 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        'mw-gray': '#181818'
       },
+      fontFamily: {
+        'poppins': 'var(--font-poppins)',
+        'playfair': 'var(--font-playfair)'
+      },
+      screens: {
+        mobile: "800px"
+      }
     },
   },
   plugins: [],
